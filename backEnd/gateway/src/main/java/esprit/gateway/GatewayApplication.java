@@ -29,6 +29,9 @@ public class GatewayApplication {
                 .route("meeting",
                         r->r.path("/mic4/**")
                                 .uri("lb://meeting"))
+                .route("notification",
+                        r->r.path("/mic5/**")
+                                .uri("lb://notification"))
 
                 .build();
      }
