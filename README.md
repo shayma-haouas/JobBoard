@@ -1,1 +1,1 @@
-[📄 Atelier 2](./documentation/workshops/workshop2.pdf)
+<iframe src="(./documentation/workshops/workshop2.pdf" width="100%" height="600px"></iframe>
